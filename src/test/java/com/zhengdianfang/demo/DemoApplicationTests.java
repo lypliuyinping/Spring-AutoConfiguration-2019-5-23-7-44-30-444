@@ -20,6 +20,7 @@ public class DemoApplicationTests {
 
     @Test
     public void testUserProperties() {
+        System.out.println(user.getUsername());
         Assert.assertEquals(user.getUsername(), "张三");
         Assert.assertEquals(user.getAge(), 14);
         Assert.assertEquals(user.getAddress(), "北京市东城区 张三收");
